@@ -5,13 +5,14 @@ import { IoLogoCss3 } from "react-icons/io5";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { IoLogoJavascript } from "react-icons/io5";
 import { motion } from "framer-motion";
+import { FaAngular, FaBootstrap } from "react-icons/fa";
 
 const iconVariants = (duration) => ({
   initial: {
     y: -10,
   },
   animate: {
-    y: [10, -10],
+    y: [15, -15],
     transition: {
       duration: duration,
       ease: "linear",
@@ -37,41 +38,57 @@ const Technologies = () => {
           variants={iconVariants(2.5)}
           initial="initial"
           animate="animate"
-          className="rounded-2xl border-4 border-neutral-800 p-4"
+          className="rounded-2xl border-4 border-neutral-800 p-4 mt-2"
         >
-          <RiReactjsLine className="text-7xl text-cyan-400" />
+          <DiJavascript className="text-7xl text-cyan-400" />
         </motion.div>
         <motion.div
           variants={iconVariants(3)}
           initial="initial"
           animate="animate"
-          className="rounded-2xl border-4 border-neutral-800 p-4"
+          className="rounded-2xl border-4 border-neutral-800 p-4 mt-2"
         >
-          <DiJavascript className="text-7xl text-cyan-400" />
+          <IoLogoCss3 className="text-7xl text-cyan-400" />
         </motion.div>
         <motion.div
           variants={iconVariants(3.5)}
           initial="initial"
           animate="animate"
-          className="rounded-2xl border-4 border-neutral-800 p-4"
+          className="rounded-2xl border-4 border-neutral-800 p-4 mt-2"
         >
-          <IoLogoCss3 className="text-7xl text-cyan-400" />
+          <IoLogoJavascript className="text-7xl text-cyan-400" />
         </motion.div>
         <motion.div
           variants={iconVariants(4)}
           initial="initial"
           animate="animate"
-          className="rounded-2xl border-4 border-neutral-800 p-4"
+          className="rounded-2xl border-4 border-neutral-800 p-4 mt-2"
         >
-          <RiTailwindCssFill className="text-7xl text-cyan-400" />
+          <FaBootstrap className="text-7xl text-cyan-400" />
         </motion.div>
         <motion.div
           variants={iconVariants(4.5)}
           initial="initial"
           animate="animate"
-          className="rounded-2xl border-4 border-neutral-800 p-4"
+          className="rounded-2xl border-4 border-neutral-800 p-4 mt-2"
         >
-          <IoLogoJavascript className="text-7xl text-cyan-400" />
+          <RiTailwindCssFill className="text-7xl text-cyan-400" />
+        </motion.div>
+        <motion.div
+          variants={iconVariants(5)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4 mt-2"
+        >
+          <RiReactjsLine className="text-7xl text-cyan-400" />
+        </motion.div>
+        <motion.div
+          variants={iconVariants(5.5)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4 mt-2"
+        >
+          <FaAngular className="text-7xl text-cyan-400" />
         </motion.div>
       </div>
     </div>
