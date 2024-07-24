@@ -1,7 +1,7 @@
 import project1 from "../assets/projects/appliedNutrition.png";
 import project2 from "../assets/projects/marketingExcellence.png";
-import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
+import project3 from "../assets/projects/portfolio.png";
+import project4 from "../assets/projects/loginApp.png";
 
 export const HERO_CONTENT = `I am a passionate Full-stack developer with a knack for crafting robust and scalable web applications. With 1.5 years of hands-on experience, I have honed my skills in front-end technologies like React.js and Angular Framework, as well as back-end technologies like Node.js, Express.js and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -65,11 +65,17 @@ export const PROJECTS = [
     technologies: ["HTML", "CSS", "React.js", "Tailwind css", "Framer motion"],
   },
   {
-    title: "Blogging Platform",
+    title: "Login App",
     image: project4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Javascript", "React.js", "Appwrite"],
+      "The Login App is a dynamic platform designed for creating and publishing blog posts with a user-friendly interface and advanced features.",
+    technologies: [
+      "HTML",
+      "CSS",
+      "Javascript",
+      "React.js",
+      "Formik and axios Library",
+    ],
   },
 ];
 
